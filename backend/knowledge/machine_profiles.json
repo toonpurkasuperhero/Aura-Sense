@@ -1,0 +1,82 @@
+[
+  {
+    "node_id": "esp32_rig",
+    "name": "Demo Rig (real ESP32)",
+    "machine_type": "fan",
+    "location": "Hack Day bench - live hardware",
+    "rated_rpm": 1440,
+    "power_kw": 0.05,
+    "line_hz": 50,
+    "criticality": "medium",
+    "downtime_cost_per_hour_inr": 10000,
+    "manuals": [
+      "ABB_Baldor_MN408_AC_Induction_Motor_Manual.pdf",
+      "WEG_50033244_Electric_Motor_IOM.pdf"
+    ],
+    "notes": "Real AuraSense box: MPU6050, DHT11, flame sensor, microphone module, analog humidity module, 1602 LCD. Small table fan / motor used to inject faults live (coin on blade = imbalance).",
+    "demo_baseline": {
+      "image": "images/exhaust_fan_healthy.jpg",
+      "audio": "audio/fan_normal_1.wav"
+    }
+  },
+  {
+    "node_id": "motor_01",
+    "name": "Line-1 Belt-Drive Motor",
+    "machine_type": "motor",
+    "location": "Shop floor, Line 1 (conveyor drive)",
+    "rated_rpm": 1440,
+    "power_kw": 3.7,
+    "line_hz": 50,
+    "criticality": "high",
+    "downtime_cost_per_hour_inr": 30000,
+    "manuals": [
+      "ABB_Baldor_MN408_AC_Induction_Motor_Manual.pdf",
+      "WEG_50033244_Electric_Motor_IOM.pdf"
+    ],
+    "notes": "3-phase TEFC induction motor driving a conveyor through a V-belt and gearbox.",
+    "demo_baseline": {
+      "image": "images/motor_3phase_healthy.jpg",
+      "audio": "audio/fan_normal_2.wav"
+    }
+  },
+  {
+    "node_id": "fan_02",
+    "name": "Paint-Booth Exhaust Fan",
+    "machine_type": "fan",
+    "location": "Paint shop roof",
+    "rated_rpm": 960,
+    "power_kw": 2.2,
+    "line_hz": 50,
+    "criticality": "medium",
+    "downtime_cost_per_hour_inr": 12000,
+    "manuals": [
+      "ABB_Baldor_MN408_AC_Induction_Motor_Manual.pdf",
+      "WEG_50033244_Electric_Motor_IOM.pdf"
+    ],
+    "notes": "Direct-drive axial exhaust fan. Fumes cause deposits on blades.",
+    "demo_baseline": {
+      "image": "images/exhaust_fan_healthy.jpg",
+      "audio": "audio/fan_normal_1.wav"
+    }
+  },
+  {
+    "node_id": "pump_03",
+    "name": "Coolant Circulation Pump",
+    "machine_type": "pump",
+    "location": "CNC bay coolant tank",
+    "rated_rpm": 2900,
+    "power_kw": 1.5,
+    "line_hz": 50,
+    "criticality": "high",
+    "downtime_cost_per_hour_inr": 20000,
+    "manuals": [
+      "Centrifugal_Pump_CSC_IOM.pdf",
+      "ABB_Baldor_MN408_AC_Induction_Motor_Manual.pdf"
+    ],
+    "notes": "Close-coupled centrifugal pump feeding coolant to 6 CNC machines.",
+    "demo_baseline": {
+      "image": "images/pump_centrifugal.jpg",
+      "audio": "audio/pump_normal_1.wav"
+    }
+  }
+]

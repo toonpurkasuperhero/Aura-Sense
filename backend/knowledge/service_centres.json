@@ -1,0 +1,37 @@
+{
+  "_note": "SAMPLE DIRECTORY FOR THE DEMO. Names and phone numbers are placeholders - replace them with your real vendors before use.",
+  "site": {"name": "Demo Factory, Peenya Industrial Area", "city": "Bengaluru", "lat": 13.0285, "lon": 77.5197},
+  "centres": [
+    {"id": "SC-01", "name": "Sample Motor Rewinding & Repair (Peenya)", "area": "Peenya 2nd Stage", "lat": 13.0330, "lon": 77.5130,
+     "specialties": ["motor_rewinding", "bearing", "electrical", "motor"], "phone": "+910000000001", "whatsapp": "910000000001",
+     "hours": "09:00-20:00", "rating": 4.5, "avg_response_hours": 3, "visit_charge_inr": 800},
+    {"id": "SC-02", "name": "Sample Pump Service Centre (Rajajinagar)", "area": "Rajajinagar Industrial Estate", "lat": 12.9915, "lon": 77.5530,
+     "specialties": ["pump", "seal", "impeller", "bearing", "cavitation"], "phone": "+910000000002", "whatsapp": "910000000002",
+     "hours": "08:30-19:00", "rating": 4.3, "avg_response_hours": 4, "visit_charge_inr": 700},
+    {"id": "SC-03", "name": "Sample Fan & Blower Balancing Works (Bommasandra)", "area": "Bommasandra Industrial Area", "lat": 12.8160, "lon": 77.6950,
+     "specialties": ["fan", "balancing", "alignment", "vibration", "bearing"], "phone": "+910000000003", "whatsapp": "910000000003",
+     "hours": "09:00-18:00", "rating": 4.7, "avg_response_hours": 8, "visit_charge_inr": 1500},
+    {"id": "SC-04", "name": "Sample Alignment & Vibration Services (Whitefield)", "area": "EPIP Zone, Whitefield", "lat": 12.9780, "lon": 77.7270,
+     "specialties": ["alignment", "balancing", "vibration", "coupling", "belt"], "phone": "+910000000004", "whatsapp": "910000000004",
+     "hours": "09:00-19:00", "rating": 4.6, "avg_response_hours": 6, "visit_charge_inr": 1800},
+    {"id": "SC-05", "name": "Sample Bearings & Transmission Store (Peenya)", "area": "Peenya 1st Stage", "lat": 13.0260, "lon": 77.5240,
+     "specialties": ["bearing", "belt", "coupling", "spares"], "phone": "+910000000005", "whatsapp": "910000000005",
+     "hours": "09:30-20:30", "rating": 4.4, "avg_response_hours": 2, "visit_charge_inr": 0},
+    {"id": "SC-06", "name": "Sample Industrial Electricals (Jigani)", "area": "Jigani Industrial Area", "lat": 12.7860, "lon": 77.6390,
+     "specialties": ["electrical", "vfd", "motor_rewinding", "motor", "panel"], "phone": "+910000000006", "whatsapp": "910000000006",
+     "hours": "09:00-18:30", "rating": 4.2, "avg_response_hours": 10, "visit_charge_inr": 1000}
+  ],
+  "parts_price_hints_inr": {
+    "6205/6206 deep-groove ball bearing (pair)": 900,
+    "6308/6309 deep-groove ball bearing (pair)": 2600,
+    "V-belt A/B section": 450,
+    "Jaw coupling spider insert": 350,
+    "Mechanical seal (small pump)": 1800,
+    "Pump impeller (small, cast iron)": 3500,
+    "Lithium EP2 grease 1 kg": 450,
+    "Fan blade set / impeller balancing service": 2500,
+    "Motor rewinding (up to 5 kW)": 6000,
+    "Anchor / foundation bolts set": 400,
+    "Laser alignment service": 3000
+  }
+}

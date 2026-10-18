@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AuraSense Control Room</title>
+  <meta name="description" content="Two-tier edge sensing and Gemma 4 multimodal machine diagnosis">
+  <meta name="theme-color" content="#0a0e14">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ff7a1a' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M22 12h-4l-3 9L9 3l-3 9H2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/app.css">
+  <script>
+    try { const t = localStorage.getItem("aura-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+        <div><b>AuraSense</b><span>Control room</span></div>
+      </div>
+      <nav class="nav" id="nav"></nav>
+      <div class="side-section">Open cases</div>
+      <div class="side-cases" id="side-cases"></div>
+      <div class="side-foot">
+        <div class="engine" id="engine"></div>
+        <button class="btn ghost sm" id="theme-btn"></button>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h1 id="page-title">AuraSense</h1>
+          <div class="crumb" id="page-crumb"></div>
+        </div>
+        <div class="spacer"></div>
+        <div id="top-extra" class="row"></div>
+        <span class="badge ok live" id="live-badge"><span class="dot"></span>Live</span>
+        <span class="muted mono small" id="clock"></span>
+      </header>
+      <section class="content" id="view"></section>
+    </main>
+  </div>
+  <div class="toasts" id="toasts"></div>
+  <script src="vendor/chart.umd.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

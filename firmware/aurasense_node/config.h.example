@@ -1,0 +1,7 @@
+// Example local settings for this sensor box. Copy to config.h (which is git-ignored).
+#pragma once
+#define CFG_WIFI_SSID   "YOUR_WIFI_SSID"
+#define CFG_WIFI_PASS   "YOUR_WIFI_PASSWORD"
+#define CFG_BACKEND_URL "http://192.168.1.100:8000"
+#define CFG_NODE_ID     "esp32_rig"
+#define CFG_RPM_HINT    1440.0

@@ -1,0 +1,46 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pytest_cache/
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Local Logs & Background Files
+.ollama.log
+*.log
+scratch/
+
+# Local Application Data & Database
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Third-party Copyrighted Manuals (re-download via scripts/fetch_assets.py)
+backend/knowledge/manuals/*.pdf
+
+# Firmware Credentials & Build Artifacts
+firmware/**/config.h
+firmware/**/build/
+*.bin
+*.elf
+*.map
+*.hex
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
