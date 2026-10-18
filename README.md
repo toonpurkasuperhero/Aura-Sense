@@ -2,6 +2,10 @@
 
 **Hacktoberfest Hack Day Bengaluru 2026 · Track 1 (Best Use of Gemma 4) · G3 Multimodal + G1 Multi-Agent**
 
+[![Watch the Demo Video](https://img.shields.io/badge/▶_Demo_Video-Google_Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1XdY2FcnVPI5plLDpA5WEr26bJFxRtaQF/view?usp=sharing)
+
+> 📹 **Live Demo Video:** [Watch AuraSense in Action on Google Drive](https://drive.google.com/file/d/1XdY2FcnVPI5plLDpA5WEr26bJFxRtaQF/view?usp=sharing)
+
 A low-cost ESP32 box clips onto any old machine and watches its vibration, temperature, sound and current 24/7.
 When something drifts, it raises an alert. The technician then adds a photo, a 10 s sound clip and an optional
 voice note in any language. A team of **Gemma 4 agents running locally** fuses all of it:
